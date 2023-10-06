@@ -1,0 +1,13 @@
+table {
+    background-color: white;
+}
+/* table td:hover{
+    color: black;
+} */
+.collapse {
+    margin: 10px;
+}
+.navbar-brand img{
+    margin-left: 100px;
+    margin-top: 15px;
+}

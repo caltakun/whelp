@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            width: 600px;
+        }
+
+        .left-section {
+            background-color: #333;
+            color: #fff;
+            padding: 40px;
+            border-radius: 5px 0 0 5px;
+            flex: 1;
+        }
+
+        .right-section {
+            padding: 40px;
+            flex: 2;
+        }
+
+        .login-form {
+            margin-top: 20px;
+        }
+
+        .login-guide {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="left-section">
+            <h1>Welcome Back!</h1>
+            <p>Enter your login credentials to access your account.</p>
+        </div>
+        <div class="right-section">
+            <div class="login-form">
+                <h2>Login</h2>
+                <form action="login.php" method="POST">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
